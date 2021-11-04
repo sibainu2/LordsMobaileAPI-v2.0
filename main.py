@@ -8,7 +8,7 @@ roop2=40
 for y in range(roop):
     move.movel(x=5,y=3+12*y)
     for x in range(roop):
-        move.move(sx=x,sy=0)
+        move.move(sx=x,sy=ｙ)
 
 for y in range(roop):
     for i in range(roop):
