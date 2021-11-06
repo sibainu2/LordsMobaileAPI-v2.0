@@ -1,4 +1,5 @@
 import json
+#ここのファイルはまだ動きません。
 mapo=open(r"C:\Users\waon-pc\Desktop\discord\lordsmobileAPI\dete\map.json")
 mapl=json.load(mapo)
 maps=json.dumps(mapl)
