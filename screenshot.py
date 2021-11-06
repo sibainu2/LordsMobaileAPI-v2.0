@@ -6,6 +6,7 @@ sleep(3)
 def screenshot(sx,sy):
     #スクリーンを撮る
     screenshot1 = pyautogui.screenshot(region = (100, 330, 1100, 830))#座標指定してスクリーンショット
+    #保存する
     screenshot1.save(r"C:\Users\waon-pc\Desktop\pythonC\discord\lordsmobileAPI\dete\Photo\map_"+str(sx)+"_"+str(sy)+".png")#保存先
 #    screenshot2 = pyautogui.screenshot(region = (105, 240, 1080, 778))#1170
 #    screenshot2.save(r"C:\Users\waon-pc\Desktop\pythonCドラ\discord\lordsmobileAPI\dete\Photo\map_"+str(i)+"_2.png")#バリア用
