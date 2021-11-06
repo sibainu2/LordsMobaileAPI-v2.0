@@ -4,7 +4,7 @@ import pyautogui
 #このファイルはメインのファイルです。このファイルを実行すると動きます。
 time.sleep(2)
 roop=51
-roop2=40
+
 for y in range(roop):
     move.movel(x=5,y=3+12*y)
     for x in range(roop):
