@@ -3,7 +3,7 @@ import pyautogui
 from time import sleep
 import screenshot
 
-
+#このファイルはゲーム内を動く時にに使います。
 def move(sx,sy):#1タイル横約211.5縦107.3
     screenshot.screenshot(sx=sx,sy=sy)
     pyautogui.moveTo(1200,511)
