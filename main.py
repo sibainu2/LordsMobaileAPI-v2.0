@@ -1,7 +1,7 @@
 import move,screenshot,datection
 import time
 import pyautogui
-
+#このファイルはメインのファイルです。このファイルを実行すると動きます。
 time.sleep(2)
 roop=51
 roop2=40
