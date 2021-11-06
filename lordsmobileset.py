@@ -1,6 +1,6 @@
 from time import sleep
 import win32gui
-
+#このファイルも作成途中です
 meveapp = win32gui.FindWindow(None,"Discord(32ビット)")
 #sleep(1)
 #win32gui.SetForegroundWindow(meveapp)
