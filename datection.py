@@ -7,7 +7,7 @@ import math
 import json
 mapdata={}
 
-
+#このファイルはスクリーンショットから対象の物体を検出しゲーム内座標に置き換えています。
 Nest={"tiles":"闇の巣窟"}
 
 def ction(sx,sy):
