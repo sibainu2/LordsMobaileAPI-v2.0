@@ -1,7 +1,7 @@
 import json
 
 map={}
-
+#このファイルはまだ作成途中です
 def Nest(x,y,Lvel):
     map["x{}y{}".format(x,y)]={"tiles":"Nest","Lvel":Lvel,"power":None}
 
